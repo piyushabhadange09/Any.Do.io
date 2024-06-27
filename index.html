@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✍️ANY.DO-To Do List/</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <link rel="stylesheet" href="./STATIC/style.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width: 600px)"
+      href="./static/phone.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2 class="w3-sofia">To-Do List <img src="./IMG/icon.png" alt="" /></h2>
+
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your Task" />
+          <button onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="./STATIC/index.js"></script>
+  </body>
+</html>
